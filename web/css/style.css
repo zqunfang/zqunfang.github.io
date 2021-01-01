@@ -101,17 +101,18 @@ body a:focus {
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #5ccebe;
+	background-color: #0F3C1F;
 	background: url(../images/nav.jpg) no-repeat center;
 	background-size: cover;
 	overflow-x: hidden;
 	padding-top: 20px;
+	
 }
 
 .sidenav:before {
 	position: absolute;
 	content: '';
-	background: rgba(0, 154, 192, 0.52);
+	background: rgba(14,60,31, 0.6);
 	width: 100%;
 	height: 100%;
 	left: 0;
@@ -160,10 +161,10 @@ header {
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-	color: #673ab7;
+	color: #e59933;
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #673ab7;
+    color: #e59933;
 }
 .navbar-light .navbar-nav .nav-link {
 	color: #000;
@@ -190,6 +191,8 @@ header {
 	background-size: cover;
 	padding: 21vw 0;
 	margin: 10px;
+	border-radius: 15px;
+	border: 2px solid #0F3C1F;
 }
 
 .banner-text-w3ls h2 {
@@ -300,7 +303,7 @@ span.w3-line {
 
 .card-title {
 	font-size: 1.4em;
-	color: #673AB7;
+	color: #e59933;
 	font-weight: bold;
 	font-style: italic;
 	letter-spacing: 1px;
@@ -431,7 +434,7 @@ div#agileits-services {
 
 .agileits-services-grids span {
 	font-size: 2em;
-	color: #673AB7;
+	color: #e59933;
 	border-radius: 50%;
 	background: #ffffff;
 	box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.37);
@@ -573,12 +576,12 @@ ul.social-icons3 li a:hover {
 .subscribe-grid button.btn1 {
 	color: #ffffff;
 	font-size: 1em;
-	border: solid 1px #673AB7;
+	border: solid 1px #e59933;
 	width: 15%;
 	height: 46px;
 	text-align: center;
 	text-decoration: none;
-	background: #673AB7;
+	background: #e59933;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -589,8 +592,8 @@ ul.social-icons3 li a:hover {
 
 .btn-info {
 	color: #fff;
-	background-color: #673AB7 !important;
-	border-color: #673AB7 !important;
+	background-color: #e59933 !important;
+	border-color: #e59933 !important;
 	color: #fff !important;
 }
 
@@ -806,7 +809,7 @@ p.text-white a {
 	}
 	.agileits-services-grids span {
 		font-size: 2em;
-		color: #673AB7;
+		color: #e59933;
 		border-radius: 50%;
 		background: #ffffff;
 		box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.37);
